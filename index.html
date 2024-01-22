@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>
+    Movie App - Leow Kean Tat (Kaz)
+  </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Movie Listing App (OMDB)</h1>
+  <image src="movie-icon.png" id="portrait" alt="" height="150px"/>
+    
+  <div class="table-group">
+    
+    <div class="table-row-group">
+      <label for="movie-name" class="table-cell input-header-text">Movie Name*:</label>
+      <input id="movie-name" class="table-cell input-field" type="text" name="movie-name" placeholder="Please enter movie name."/>
+    </div>
+
+    <div class="table-row-group">
+      <label for="movie-year" class="table-cell input-header-text">Movie Year:</label>
+      <input id="movie-year" class="table-cell input-field" type="text" name="movie-year" placeholder="Please enter the movie year."/>
+    </div>
+
+    <div class="table-row-group">
+      <label for="movie-type" class="table-cell input-header-text">Movie Type:</label>
+      <select id="movie-type" class="table-cell input-header-text">
+        <option>Movie</option>
+        <option>Series</option>
+        <!-- Unable to retrieve any results with the episode value. Commented out in the meantime -->
+        <!-- <option>Episode</option> -->
+      </select>
+    </div>
+    
+  </div>
+
+  <button id="submit" onclick="getMovieMetadata()" style="margin: 15px 0px;">Submit</button>
+
+  <div id="info" class="hidden"></div>
+  <div id="warning" class="hidden"></div>
+
+  <table id="list-table" class="list-table-border hidden">
+    <tr class="list-table-border">
+      <th class="list-table-border list-table-header">Movie Name (Click for Poster URL)</th>
+      <th class="list-table-border list-table-header">Year of Release</th>
+      <th class="list-table-border list-table-header">Movie Type</th>
+    </tr>
+  </table>
+  
+  <script type="module" src="script.js">
+  </script>
+</body>
+
+</html>
