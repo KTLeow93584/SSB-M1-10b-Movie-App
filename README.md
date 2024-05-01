@@ -28,7 +28,7 @@
 <!--- Discussion: https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank --->
 
 ## Misc
-- Bus Service API Source: https://github.com/cheeaun/arrivelah
+- Movie API Source: https://www.omdbapi.com
 
 ## License
 MIT © [Leow Kean Tat/Project Kazcade](https://github.com/KTLeow93584)
