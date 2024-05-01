@@ -16,9 +16,11 @@
   </a>
 </div>
 
+<br/>
+
 <div align="center">
   <a href="./assets/preview-2.png">
-    <img align=top src="./assets/preview-2.png" width="40%" height="auto">
+    <img align=top src="./assets/preview-2.png" width="70%" height="auto">
   </a>
 </div>
 
